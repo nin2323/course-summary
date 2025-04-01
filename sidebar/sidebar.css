@@ -35,7 +35,33 @@ aside {
  }
 
  main {
+   display: flex;
    flex: 1;
    height: 100vh;
+   background-color: rgb(180, 180, 180);
+ }
 
+ main > div {
+   flex: 1;
+   display: flex;
+ }
+
+ .certified {
+   width: 50%;
+   height: 100vh;
+   background-color: white;
+   margin: 8px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .time {
+   width: 580px;
+   height: 70px;
+   background-color: blue;
+   border-radius: 8px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
  }
